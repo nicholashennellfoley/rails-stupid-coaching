@@ -1,0 +1,21 @@
+.card-message {
+  padding: 0.1rem 1.2rem;
+  border-left: 8px solid lightgrey;
+  margin-bottom: 2rem;
+}
+
+#answer {
+  background: lightyellow;
+}
+
+#answer .message {
+  font-weight: bold;
+}
+
+.message-origin {
+  font-style: italic;
+}
+
+.link {
+  text-decoration: none;
+}

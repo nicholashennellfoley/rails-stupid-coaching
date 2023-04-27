@@ -1,0 +1,11 @@
+<div id="question" class="card-message">
+<p class="message"><%= @question %></p>
+<p class="message-origin">—You</p>
+</div>
+
+<div id="answer" class="card-message">
+<p class="message"><%=  @answer %></p>
+<p class="message-origin">—Your coach</p>
+</div>
+
+<%= link_to "Ask a new question", ask_path, class: "link"%>
